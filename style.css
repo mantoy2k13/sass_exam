@@ -1,0 +1,164 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+#wave {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  background: #e0efe3;
+}
+
+#wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 340px;
+  height: 80px;
+  background-color: white;
+  right: -5px;
+  top: 40px;
+}
+
+#wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 300px;
+  height: 70px;
+  background-color: #e0efe3;
+  left: 0;
+  top: 27px;
+}
+
+.row.homepage {
+  width: 100%;
+  background: #edd3c1;
+  /*background: #edd3c1 url(../images/homepage-bg2.png)no-repeat center center;*/
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+ul.topnav {
+  width: 100%;
+  margin-top: 40px;
+  display: block;
+}
+
+ul.topnav li {
+  list-style: none;
+  float: left;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+ul.topnav li a {
+  color: #3d3030;
+  font-size: 17px;
+}
+
+.topnav li a:hover {
+  text-decoration: none;
+  color: #3d3030;
+}
+
+li.sh {
+  font-size: 20px;
+  margin-top: -5px;
+  font-weight: normal;
+  font-family: "Rowdies", cursive;
+}
+
+li.pull-right.pr {
+  float: right;
+  margin-right: 15px;
+}
+
+h1.text-left.textpure {
+  font-size: 40px;
+  margin-top: 189px;
+  font-family: "Rowdies", cursive;
+  color: #443636;
+  margin-left: 103px;
+}
+
+h5.text-left.textpure {
+  font-weight: normal;
+  margin-top: 30px;
+  font-family: "Rowdies", cursive;
+  color: #9e917e;
+  margin-left: 103px;
+}
+
+.col-md-12.bg-hp {
+  display: block;
+  background-image: url(../images/homepage-bg2.png);
+  width: 100%;
+  height: 768px;
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #edd3c1;
+}
+
+#shopnow {
+  width: 200px;
+  padding: 10px;
+  background: #f6914e;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#vermas {
+  background: #fcf4ef;
+}
+
+div#vermas h1 {
+  color: #443636;
+}
+
+div#vermas p {
+  color: #9e917e;
+}
+
+.caption {
+  background: white;
+  width: 314px;
+  padding: 5px;
+  margin-top: -34px;
+  display: block;
+  border-radius: 0px 0px 5px 5px;
+  margin-left: 18px;
+}
+
+.caption p {
+  color: #362828;
+  padding: 20px;
+  font-family: "Rowdies", cursive;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.imgcaption {
+  width: 100%;
+}
+
+@media only screen and (max-width: 968px) {
+  h1.text-left.textpure {
+    margin-top: -10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
